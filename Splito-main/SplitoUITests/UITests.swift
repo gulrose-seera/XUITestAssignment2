@@ -1,15 +1,16 @@
 //
-//  SplitoUITests.swift
+//  UITests.swift
 //  SplitoUITests
 //
-//  Created by Shahid Latif on 13/04/2022.
+//  Created by Gul Rose on 22/09/2022.
 //
 
+import Foundation
 import XCTest
 
 class SplitoUITests: XCTestCase {
     
-    let splitHomePO = SplitHomePO()
+    let splitHomePO = HomeScreen()
     
     override func setUp() {
         XCUIApplication().launch()
@@ -21,6 +22,5 @@ class SplitoUITests: XCTestCase {
     
     // Sample for your first test case.
     func testWhenApplicationDefaultStateWhenApplicationLaunched() throws {
-        
     }
 }

@@ -8,7 +8,7 @@
 import Foundation
 import XCTest
 
-struct SplitHomePO {
+struct HomeScreen {
     let application: XCUIApplication
     let billAmountField: XCUIElement
     let incrementButton: XCUIElement
@@ -36,7 +36,7 @@ struct SplitHomePO {
     }
 }
 
-extension SplitHomePO {
+extension HomeScreen {
     enum AccessibilityIdentifier: String {
         case billAmountField = "bill_entered_amount";
         case incrementButton = "increment_person";
