@@ -38,14 +38,14 @@ struct HomeScreen {
 
 extension HomeScreen {
     enum AccessibilityIdentifier: String {
-        case billAmountField = "bill_entered_amount";
-        case incrementButton = "increment_person";
-        case decrementButton = "decrement_person";
-        case totalPersonsView = "total_person_in_bill";
-        case zeroPercentButton = "0_percent";
-        case tenPercentButton = "10_percent";
-        case fifteenPercentButton = "15_percent";
-        case twentyPercentButton = "20_percent";
+        case billAmountField = "bill_entered_amount"
+        case incrementButton = "increment_person"
+        case decrementButton = "decrement_person"
+        case totalPersonsView = "total_person_in_bill"
+        case zeroPercentButton = "0_percent"
+        case tenPercentButton = "10_percent"
+        case fifteenPercentButton = "15_percent"
+        case twentyPercentButton = "20_percent"
         case totalBillPerPersonView = "total_bill_each_person"
         case calculateBillButton = "calculate_bill_button"
     }
