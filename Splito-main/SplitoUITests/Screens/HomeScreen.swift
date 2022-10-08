@@ -26,14 +26,24 @@ struct HomeScreen {
         billAmountField = application.textFields[AccessibilityIdentifier.billAmountField.rawValue]
         incrementButton = application.buttons[AccessibilityIdentifier.incrementButton.rawValue]
         decrementButton = application.buttons[AccessibilityIdentifier.decrementButton.rawValue]
-        totalPersonsView = application.textFields[AccessibilityIdentifier.totalPersonsView.rawValue]
+        totalPersonsView = application.staticTexts[AccessibilityIdentifier.totalPersonsView.rawValue]
         zeroPercentButton = application.buttons[AccessibilityIdentifier.zeroPercentButton.rawValue]
         tenPercentButton = application.buttons[AccessibilityIdentifier.tenPercentButton.rawValue]
         fifteenPercentButton = application.buttons[AccessibilityIdentifier.fifteenPercentButton.rawValue]
         twentyPercentButton = application.buttons[AccessibilityIdentifier.twentyPercentButton.rawValue]
-        totalBillPerPersonView = application.textFields[AccessibilityIdentifier.totalBillPerPersonView.rawValue]
+        totalBillPerPersonView = application.staticTexts[AccessibilityIdentifier.totalBillPerPersonView.rawValue]
         calculateBillButton = application.buttons[AccessibilityIdentifier.calculateBillButton.rawValue]
     }
+    
+    func waitToScreenForLoad() -> Bool{
+        return billAmountField.waitForExistence(timeout: 60)
+    }
+    
+    func getPersonCount() -> Int {
+        return Int(totalPersonsView.label) ?? 0
+    }
+    
+
 }
 
 extension HomeScreen {

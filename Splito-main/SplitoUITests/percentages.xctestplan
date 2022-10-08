@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "8584829A-C2FD-42F2-B96F-463AAE8901CC",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Splito.xcodeproj",
+        "identifier" : "A8E2994B2806EF8E004E91F1",
+        "name" : "SplitoUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -66,6 +66,7 @@
 		479DA468275BE6EB00D3035C /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		479DA469275BE6EB00D3035C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		917CBA1FB244A5B767ADEBA7 /* Pods_Splito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Splito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9509A3E328EF172000978A42 /* percentages.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = percentages.xctestplan; sourceTree = "<group>"; };
 		95A1AB5728DC7804006470B6 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		95A1AB5928DC7954006470B6 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		A80E399828632E9200E39FA4 /* ViewBillsHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBillsHistoryViewController.swift; sourceTree = "<group>"; };
@@ -205,6 +206,7 @@
 			children = (
 				95A1AB5628DC77D1006470B6 /* Screens */,
 				95A1AB5928DC7954006470B6 /* UITests.swift */,
+				9509A3E328EF172000978A42 /* percentages.xctestplan */,
 			);
 			path = SplitoUITests;
 			sourceTree = "<group>";
